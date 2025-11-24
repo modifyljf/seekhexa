@@ -1,20 +1,26 @@
 import React from "react";
 
 export const ContactUsSection = () => (
-    <section id="contact" className="py-20 bg-black/[.02] dark:bg-white/[.02]">
+    <section
+        id="contact"
+        className="py-24 bg-gradient-to-b from-indigo-950 to-black text-white"
+    >
         <div className="container mx-auto px-6 sm:px-8 text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tighter">
-                Get in Touch
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
+                Connect With Us
             </h2>
-            <p className="max-w-xl mx-auto mt-4 text-foreground/70">
-                Have a question, feedback, or a partnership inquiry? We&apos;d love to hear from you. Drop us a line and our
-                team will get back to you as soon as possible.
+
+            <p className="max-w-xl mx-auto mt-4 text-white/70">
+                Questions, feedback, or collaboration ideas? We're here to listen.
+                Step into this quiet space and let us know how we can support your journey.
             </p>
-            <div className="mt-8">
-                <a href="mailto:help@seekhexa.com"
-                   className="rounded-full bg-foreground text-background font-semibold text-base h-12 px-8 flex items-center justify-center transition-colors hover:bg-foreground/80 mx-auto w-fit"
+
+            <div className="mt-10">
+                <a
+                    href="mailto:help@airclosy.com"
+                    className="rounded-full bg-indigo-500/90 text-white font-semibold text-base h-12 px-10 flex items-center justify-center transition-colors hover:bg-indigo-400/80 shadow-lg shadow-indigo-500/20 mx-auto w-fit"
                 >
-                    Contact Us
+                    Contact Us ✧
                 </a>
             </div>
         </div>
