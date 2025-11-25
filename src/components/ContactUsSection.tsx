@@ -11,13 +11,13 @@ export const ContactUsSection = () => (
             </h2>
 
             <p className="max-w-xl mx-auto mt-4 text-white/70">
-                Questions, feedback, or collaboration ideas? We're here to listen.
+                Questions, feedback, or collaboration ideas? We&apos;re here to listen.
                 Step into this quiet space and let us know how we can support your journey.
             </p>
 
             <div className="mt-10">
                 <a
-                    href="mailto:help@airclosy.com"
+                    href="mailto:contact@seekhexa.com"
                     className="rounded-full bg-indigo-500/90 text-white font-semibold text-base h-12 px-10 flex items-center justify-center transition-colors hover:bg-indigo-400/80 shadow-lg shadow-indigo-500/20 mx-auto w-fit"
                 >
                     Contact Us ✧
